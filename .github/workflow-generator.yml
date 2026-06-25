@@ -1,0 +1,10 @@
+workflow:
+  generator:
+    project:
+      java:
+        versions:
+          primary: 17
+    workflows:
+      release-train:
+        test:
+          free-disk-space: true
